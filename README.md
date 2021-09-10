@@ -1,4 +1,4 @@
-<h1><strong><center>XOPPACK</h1></strong></center>
+<h1 align="center"><strong>XOPPACK</h1></strong>
 <p align="center">
     <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
