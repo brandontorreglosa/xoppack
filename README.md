@@ -15,10 +15,10 @@ npm i xoppack
 npm i xoppack@latest
 ```
 
-## ** XOP Connect 4 Game**
+## **XOP Connect 4 Game**
 ```js
 const Discord = require('discord.js');
-const { XOPConnect4 } = require("xoppack")
+const { XOPConnect4 } = require("xoppack") //<----Always Define XOPPACK---->
 
 module.exports = {
     name: "connect4",
@@ -26,7 +26,7 @@ module.exports = {
     permissions: ["SEND_MESSAGES"], //<----Your Member Permissions!---->[optional]
     clientpermissions: ["SEND_MESSAGES", "EMBED_LINKS"], //<----Your Bots Permissions!---->[optional]
     description: "connect4 in discord!",
-    async execute(client, message, cmd, args, Discord) {
+    async execute(client, message, cmd, args, Discord) { //<----Your Parameters---->
         if (!args[0]) {
             const noch = new Discord.MessageEmbed()
                 .setTimestamp()
@@ -58,18 +58,18 @@ module.exports = {
 };
 ```
 
-## ** XOP Snake Game**
+## **XOP Snake Game**
 ```js
-const { Snake } = require("discord-gamecord")
+const { XOPSnake } = require("xoppack") //<----Always Define XOPPACK---->
 
 module.exports = {
     name: "snake",
-    cooldown: 10,
-    permissions: ["SEND_MESSAGES"],
-    clientpermissions: ["SEND_MESSAGES", "EMBED_LINKS"],
+    cooldown: 10, //<----Your Bots Cooldown!---->[optional]
+    permissions: ["SEND_MESSAGES"], //<----Your Member Permissions!---->[optional]
+    clientpermissions: ["SEND_MESSAGES", "EMBED_LINKS"], //<----Your Bots Permissions!---->[optional]
     description: "snake in discord!",
-    async execute(client, message, cmd, args, Discord) {
-        new Snake({
+    async execute(client, message, cmd, args, Discord) { //<----Your Parameters---->
+        new XOPSnake({
             message: message,
             embed: {
                 title: 'Snake Game',
