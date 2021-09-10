@@ -1,0 +1,16 @@
+{
+  "name": "xoppack",
+  "version": "1.2.2",
+  "description": "A Easy Game And Fun Package For Discord.Js Developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hackerprodev",
+  "license": "ISC",
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.3",
+    "xoppack": "^1.2.0"
+  }
+}
