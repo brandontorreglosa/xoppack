@@ -1,7 +1,7 @@
 <h1 align="center"><strong>XOPPACK</h1></strong>
 <p align="center">
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM downloads" /></a>
 </p>
 
 ## **📥 Installation**
