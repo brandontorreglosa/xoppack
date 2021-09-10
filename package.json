@@ -1,6 +1,6 @@
 {
   "name": "xoppack",
-  "version": "1.2.2",
+  "version": "1.2.1",
   "description": "A Easy Game And Fun Package For Discord.Js Developers",
   "main": "index.js",
   "scripts": {
