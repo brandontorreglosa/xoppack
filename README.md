@@ -2,6 +2,7 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://badgen.net/discord/online-members/dPXTa2XERS" alt="Discord"></a>
 </p>
 
 ## **📥 Installation**
@@ -10,6 +11,12 @@ npm i xoppack
 ```
 
 - Only Supports Discord.js@12.5.3 And Lower Versions Of V12
+
+```js
+npm i xoppack@beta
+```
+
+- Only Supports Discord.js@13.1.0 And Lower Versions Of V13
 
 ## **📤 Update**
 ```js
@@ -91,3 +98,9 @@ module.exports = {
     },
 };
 ```
+
+## **🤳 Outcome**
+<img src ='https://cdn.discordapp.com/attachments/824319314495537175/886195077494476850/Screenshot_2021-09-11_132043.png'>
+
+## **👥 Discord Server**
+<a href="https://discord.gg/invite/GaczkwfgV9"><img src="https://invidget.switchblade.xyz/dPXTa2XERS" alt="Discord"></a>
