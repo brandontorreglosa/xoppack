@@ -1,6 +1,6 @@
 {
   "name": "xoppack",
-  "version": "1.3.2",
+  "version": "1.3.4",
   "description": "A Easy Game And Fun Package For Discord.Js Developers",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "discord-buttons": "^4.0.0",
+    "discord-reply": "^0.1.2",
     "discord.js": "^12.5.3",
-    "node-fetch": "^3.0.0",
-    "xoppack": "^1.2.8"
+    "node-fetch": "^3.0.0"
   }
 }
