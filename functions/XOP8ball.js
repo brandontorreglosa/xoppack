@@ -50,7 +50,7 @@ module.exports = async (options) => {
     if (!options.embed.color) options.embed.color = '#5865F2';
     if (typeof options.embed.color !== 'string') throw new TypeError('INVALID_COLOR: Embed Color must be a string.')
 
-    if (!options.question.includes('?') && options.questionMark == true) return options.message.lineReplyNoMention('**That dosen\'t seems like a question!**')
+    if (!options.question.includes('?') && options.questionMark == true) return options.message.channel.send('**That dosen\'t seems like a question!**')
 
     const embed = new MessageEmbed()
         .setTitle(options.embed.title)
@@ -59,5 +59,5 @@ module.exports = async (options) => {
         .addField('Answer', answers[Math.floor(Math.random() * answers.length)], false)
         .setFooter(options.message.author.tag, options.message.author.displayAvatarURL({ dynamic: true }))
 
-    return options.message.lineReplyNoMention({ embed: [embed] })
+    return options.message.channel.send({ embed: [embed] })
 }
