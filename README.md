@@ -103,4 +103,4 @@ module.exports = {
 <img src ='https://cdn.discordapp.com/attachments/824319314495537175/886195077494476850/Screenshot_2021-09-11_132043.png'>
 
 ## **👥 Discord Server**
-<a href="https://discord.gg/invite/GaczkwfgV9"><img src="https://invidget.switchblade.xyz/dPXTa2XERS" alt="Discord"></a>
+<a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://invidget.switchblade.xyz/dPXTa2XERS" alt="Discord"></a>
