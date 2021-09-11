@@ -1,6 +1,4 @@
 const { MessageEmbed } = require('discord.js')
-require('discord-reply')
-const lineReplyNoMention = require('discord-reply')
 
 const answers = [
     'Maybe.',

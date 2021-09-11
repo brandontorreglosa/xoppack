@@ -1,6 +1,6 @@
 module.exports.XOPConnect4 = require('./lib/XOPConnect4')
 module.exports.XOPSnake = require('./lib/XOPSnake')
-module.exports.XOPRPS = require('./lib/XOPRPS')
+module.exports.XOPRockPaperScissors = require('./lib/XOPRockPaperScissors')
 module.exports.XOPTicTacToe = require('./lib/XOPTicTacToe')
 
 //<---Coming Soon!---->
