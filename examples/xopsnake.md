@@ -13,7 +13,7 @@ module.exports = {
             embed: {
                 title: 'Snake Game',
                 color: '#c30202',
-                OverTitle: "Game Over!",
+                OverTitle: "**Game Over!**",
             },
             snake: { head: '🔴', body: '🟥', tail: '🔴' },
             emojis: {

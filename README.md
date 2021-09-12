@@ -23,50 +23,58 @@ npm i xoppack@beta
 npm i xoppack@latest
 ```
 
-## **XOP Connect 4 Game**
+## **XOP RPS GAME**
 ```js
-const Discord = require('discord.js');
-const { XOPConnect4 } = require("xoppack") //<----Always Define XOPPACK---->
+const lineReplyNoMention = require('discord-reply')
+const { XOPRockPaperScissors } = require('xoppack') //<----Always Define XOPPACK---->
 
 module.exports = {
-    name: "connect4",
-    cooldown: 10, //<----Your Bots Cooldown!---->[optional]
+    name: "rps",
     permissions: ["SEND_MESSAGES"], //<----Your Member Permissions!---->[optional]
     clientpermissions: ["SEND_MESSAGES", "EMBED_LINKS"], //<----Your Bots Permissions!---->[optional]
-    description: "connect4 in discord!",
+    aliases: [],
+    cooldown: 10, //<----Your Bots Cooldown!---->[optional]
+    description: "play rock paper sciccors",
     async execute(client, message, cmd, args, Discord) { //<----Your Parameters---->
         if (!args[0]) {
             const noch = new Discord.MessageEmbed()
                 .setTimestamp()
                 .setColor('#c30202')
                 .setAuthor(`${message.author.username}`, message.author.displayAvatarURL({ dynamic: true }))
-                .setDescription(`**\`(prefix)connect4 <@user>\`**`)
+                .setDescription(`**\`(prefix)rps <@user>\`**`)
             return message.lineReplyNoMention(noch)
         }
-        new XOPConnect4({
+        new XOPRockPaperScissors({
             message: message,
             opponent: message.mentions.users.first(),
             embed: {
-                title: 'Connect 4 Game',
+                title: 'Rock Paper Scissors Game',
+                description: '**Press A Button Below To Start!**',
                 color: '#c30202',
             },
-            emojis: {
-                player1: '🔴',
-                player2: '🟡'
+            buttons: {
+                rock: '🗻',
+                paper: '📄',
+                scissors: '✂',
             },
-            turnMessage: 'Its Now **{player}** Turn!',
-            winMessage: '**{winner}** Won The Game!',
-            gameEndMessage: 'The Game Was Unfinished!',
-            drawMessage: 'The Game Ended With A Draw!',
-            askerMessage: 'Hey **{opponent}**, **{challenger}** Challenged You For A Game Of Connect 4!',
-            cancelMessage: 'Looks Like They Didn\`t Want To Play!',
-            timerEndMessage: 'Since The Opponent Didnt Answer, I Ended The Game!',
+            othersuserMessage: '**You Are Not Allowed To Use Buttons For This Message!**',
+            chooseMessage: '**You Choose {emoji}!**',
+            noChangeMessage: '**You Cannot Change Your Button Selection!**',
+            askerMessage: '**Hey {opponent}, {challenger} Challenged You For A Game Of Rock Paper Scissors!**',
+            cancelMessage: '**Looks Like They Didn\`t Want To Play!**',
+            timerEndMessage: '**Since The Opponent Didnt Answer, I Ended The Game!**',
+            drawMessage: '**The Game Ended With a Draw!**',
+            winMessage: '**{winner} Won The Game!**',
+            gameEndMessage: '**The Game Was Unfinished!**',
         }).startGame();
     },
 };
 ```
 
-## **XOP Snake Game**
+## **🤳 Outcome**
+<img height="80%" width="50%" src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
+
+## **XOP SNAKE GAME**
 ```js
 const { XOPSnake } = require("xoppack") //<----Always Define XOPPACK---->
 
@@ -100,7 +108,7 @@ module.exports = {
 ```
 
 ## **🤳 Outcome**
-<img src ='https://cdn.discordapp.com/attachments/824319314495537175/886195077494476850/Screenshot_2021-09-11_132043.png'>
+<img height="80%" width="50%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **👥 Discord Server**
 <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://invidget.switchblade.xyz/dPXTa2XERS" alt="Discord"></a>
