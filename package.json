@@ -1,6 +1,6 @@
 {
   "name": "xoppack",
-  "version": "1.3.6-1.03",
+  "version": "1.3.6-1.05",
   "description": "A Easy Game And Fun Package For Discord.Js Developers",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord-buttons": "^4.0.0",
-    "discord-gamecord": "^1.1.3-old.7",
     "discord.js": "^12.5.3"
   }
 }

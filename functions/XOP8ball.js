@@ -55,7 +55,7 @@ module.exports = async (options) => {
         .setColor(options.embed.color)
         .addField('Question', options.question, false)
         .addField('Answer', answers[Math.floor(Math.random() * answers.length)], false)
-        .setFooter(options.message.author.tag, options.message.author.displayAvatarURL({ dynamic: true }))
+        .setFooter('XOPPACK©', options.message.author.displayAvatarURL({ dynamic: true }))
 
     return options.message.channel.send({ embed: [embed] })
 }
