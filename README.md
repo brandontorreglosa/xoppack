@@ -108,7 +108,7 @@ module.exports = {
 ```
 
 ## **🤳 Outcome**
-<img height=80% width=50% src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
+<img height=70% width=50% src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **👥 Discord Server**
 <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://invidget.switchblade.xyz/dPXTa2XERS" alt="Discord"></a>
