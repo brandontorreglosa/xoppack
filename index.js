@@ -4,6 +4,7 @@ module.exports.XOPRockPaperScissors = require('./lib/XOPRockPaperScissors')
 module.exports.XOPTicTacToe = require('./lib/XOPTicTacToe')
 module.exports.XOP8ball = require('./functions/XOP8ball')
 module.exports.XOPEmojify = require('./functions/XOPEmojify')
+module.exports.XOPCalculator = require('./lib/XOPCalculator')
 
 //<---Coming Soon!---->
 // module.exports.XOPTrivia = require('./src/Trivia')
