@@ -1,3 +1,6 @@
+<p align="center">
+<a href="https://xopbot-gg.glitch.me/"><img src="https://cdn.discordapp.com/avatars/831824859066925087/4a734a5acb82ba30bcfb906662f08b7a.webp"></a>
+</p>
 <h1 align="center"><strong>XOPPACK</h1></strong>
 <p align="center">
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM version" /></a>
@@ -25,7 +28,7 @@ npm i xoppack@latest
 
 ## **XOP RPS GAME**
 ```js
-const lineReplyNoMention = require('discord-reply')
+const lineReplyNoMention = require('discord-reply')  //<----Install To Work!---->
 const { XOPRockPaperScissors } = require('xoppack') //<----Always Define XOPPACK---->
 
 module.exports = {
@@ -39,7 +42,7 @@ module.exports = {
         if (!args[0]) {
             const noch = new Discord.MessageEmbed()
                 .setTimestamp()
-                .setColor('#c30202')
+                .setColor('#34b7db')
                 .setAuthor(`${message.author.username}`, message.author.displayAvatarURL({ dynamic: true }))
                 .setDescription(`**\`(prefix)rps <@user>\`**`)
             return message.lineReplyNoMention(noch)
@@ -76,6 +79,7 @@ module.exports = {
 
 ## **XOP SNAKE GAME**
 ```js
+const lineReplyNoMention = require('discord-reply') //<----Install To Work!---->
 const { XOPSnake } = require("xoppack") //<----Always Define XOPPACK---->
 
 module.exports = {
@@ -89,8 +93,8 @@ module.exports = {
             message: message,
             embed: {
                 title: 'Snake Game',
-                color: '#c30202',
-                OverTitle: "Game Over!",
+                color: '#34b7db',
+                OverTitle: "**Game Over!**",
             },
             snake: { head: '🔴', body: '🟥', tail: '🔴' },
             emojis: {
