@@ -1,9 +1,7 @@
 const converter = ['ᴀ', 'ʙ', 'ᴄ', 'ᴅ', 'ᴇ', 'ꜰ', 'ɢ', 'ʜ', 'ɪ', 'ᴊ',
     'ᴋ', 'ʟ', 'ᴍ', 'ɴ', 'ᴏ', 'ᴘ', 'ǫ', 'ʀ', 'ꜱ', 'ᴛ', 'ᴜ', 'ᴠ', 'ᴡ', 'x', 'ʏ', 'ᴢ'];
 const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
-const axios = require('axios');
 const chalk = require('chalk');
-const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 
 module.exports = {
@@ -38,13 +36,13 @@ module.exports = {
             .then((res) => {
                 const versions = Object.keys(res.time);
                 const vLatest = versions[versions.length - 1];
-                if (package.dependencies.weky) {
-                    if (res['dist-tags'].latest !== package.dependencies.weky.slice(1)) {
+                if (package.dependencies.xoppack) {
+                    if (res['dist-tags'].latest !== package.dependencies.xoppack.slice(1)) {
                         const msg = chalk(
                             `New ${chalk.green('Version')} Of ${chalk.yellow(
                                 'xoppack',
                             )} Is Available! ${chalk.red(
-                                package.dependencies.weky.slice(1),
+                                package.dependencies.xoppack.slice(1),
                             )} --> ${chalk.green(vLatest)}`,
                         );
                         const tip = chalk(
@@ -55,13 +53,13 @@ module.exports = {
                         );
                         boxConsole([msg, tip, install]);
                     }
-                } else if (package.devDependencies.weky) {
-                    if (res['dist-tags'].latest !== package.devDependencies.weky.slice(1)) {
+                } else if (package.devDependencies.xoppack) {
+                    if (res['dist-tags'].latest !== package.devDependencies.xoppack.slice(1)) {
                         const msg = chalk(
                             `New ${chalk.green('Version')} Of ${chalk.yellow(
                                 'xoppack',
                             )} Is Available! ${chalk.red(
-                                package.devDependencies.weky.slice(1),
+                                package.devDependencies.xoppack.slice(1),
                             )} --> ${chalk.green(vLatest)}`,
                         );
                         const tip = chalk(

@@ -57,15 +57,15 @@ module.exports = {
         if (!start) throw new TypeError('Invalid_Number: A Number Was Not Specified.');
         if (!end) throw new TypeError('Invalid_Number: A Number Was Not Specified.');
         if (typeof start !== 'number' && typeof end !== 'number') {
-            throw new TypeError('Weky Error: Provided number data is Invalid');
+            throw new TypeError('Error: Provided number data is Invalid');
         }
         const res = Math.floor(Math.random() * (end - start + 1) + start);
         return res;
     },
     randomizeString: function (array) {
-        if (!array) throw new TypeError('Weky Error: A array was not specified.');
+        if (!array) throw new TypeError('Error: A array was not specified.');
         if (typeof array !== 'object') {
-            throw new TypeError('Weky Error: The provided array is invalid.');
+            throw new TypeError('Error: The provided array is invalid.');
         }
         const res = Math.floor(Math.random() * array.length);
         return array[res];

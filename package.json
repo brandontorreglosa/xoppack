@@ -1,7 +1,7 @@
 {
   "name": "xoppack",
-  "version": "1.3.7",
-  "description": "A Easy Game And Fun Package For Discord.Js Developers",
+  "version": "1.3.8",
+  "description": "A Easy Fun And Game Package For Discord.js Developers!",
   "keywords": [
     "xoppack",
     "discord-games",
@@ -21,14 +21,13 @@
   },
   "homepage": "https://github.com/HACKERPROTM/xoppack/blob/main/README.md",
   "dependencies": {
+    "chalk": "^4.1.2",
     "discord-buttons": "^4.0.0",
     "discord-reply": "^0.1.2",
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "axios": "^0.21.4",
-    "chalk": "^4.1.2",
-    "cheerio": "^1.0.0-rc.10",
-    "mathjs": "^9.4.5"
+    "xoppack": "^1.3.7"
   }
 }
