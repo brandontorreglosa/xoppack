@@ -15,12 +15,6 @@ npm i xoppack
 
 - Only Supports Discord.js@12.5.3 And Lower Versions Of V12
 
-```js
-npm i xoppack@beta
-```
-
-- Only Supports Discord.js@13.1.0 And Lower Versions Of V13
-
 ## **📤 Update**
 ```js
 npm i xoppack@latest
