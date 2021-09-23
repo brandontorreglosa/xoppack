@@ -27,6 +27,6 @@
     "discord.js": "^12.5.3"
   },
   "devDependencies": {
-    "xoppack": "^1.3.8-1.0"
+    "xoppack": "^1.3.8-1.1"
   }
 }
