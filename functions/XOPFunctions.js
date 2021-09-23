@@ -29,48 +29,48 @@ module.exports = {
         }
         return result;
     },
-    checkForUpdates: async function () {
-        const package = require('../package.json');
-        await fetch('https://registry.npmjs.com/xoppack')
-            .then((res) => res.json())
-            .then((res) => {
-                const versions = Object.keys(res.time);
-                const vLatest = versions[versions.length - 1];
-                if (package.dependencies.xoppack) {
-                    if (res['dist-tags'].latest !== package.dependencies.xoppack.slice(1)) {
-                        const msg = chalk(
-                            `New ${chalk.green('Version')} Of ${chalk.yellow(
-                                'xoppack',
-                            )} Is Available! ${chalk.red(
-                                package.dependencies.xoppack.slice(1),
-                            )} --> ${chalk.green(vLatest)}`,
-                        );
-                        const tip = chalk(
-                            `Registry ${chalk.cyan('https://www.npmjs.com/package/xoppack')}`,
-                        );
-                        const install = chalk(
-                            `Run ${chalk.green('npm i xoppack@latest')} To Update!`,
-                        );
-                        boxConsole([msg, tip, install]);
-                    }
-                } else if (package.devDependencies.xoppack) {
-                    if (res['dist-tags'].latest !== package.devDependencies.xoppack.slice(1)) {
-                        const msg = chalk(
-                            `New ${chalk.green('Version')} Of ${chalk.yellow(
-                                'xoppack',
-                            )} Is Available! ${chalk.red(
-                                package.devDependencies.xoppack.slice(1),
-                            )} --> ${chalk.green(vLatest)}`,
-                        );
-                        const tip = chalk(
-                            `Registry ${chalk.cyan('https://www.npmjs.com/package/xoppack')}`,
-                        );
-                        const install = chalk(
-                            `Run ${chalk.green('npm i xoppack@latest')} To Update!`,
-                        );
-                        boxConsole([msg, tip, install]);
-                    }
-                }
-            });
-    }
+    // checkForUpdates: async function () {
+    //     const package = require('../package.json');
+    //     await fetch('https://registry.npmjs.com/xoppack')
+    //         .then((res) => res.json())
+    //         .then((res) => {
+    //             const versions = Object.keys(res.time);
+    //             const vLatest = versions[versions.length - 1];
+    //             if (package.dependencies.xoppack) {
+    //                 if (res['dist-tags'].latest !== package.dependencies.xoppack.slice(1)) {
+    //                     const msg = chalk(
+    //                         `New ${chalk.green('Version')} Of ${chalk.yellow(
+    //                             'xoppack',
+    //                         )} Is Available! ${chalk.red(
+    //                             package.dependencies.xoppack.slice(1),
+    //                         )} --> ${chalk.green(vLatest)}`,
+    //                     );
+    //                     const tip = chalk(
+    //                         `Registry ${chalk.cyan('https://www.npmjs.com/package/xoppack')}`,
+    //                     );
+    //                     const install = chalk(
+    //                         `Run ${chalk.green('npm i xoppack@latest')} To Update!`,
+    //                     );
+    //                     boxConsole([msg, tip, install]);
+    //                 }
+    //             } else if (package.devDependencies.xoppack) {
+    //                 if (res['dist-tags'].latest !== package.devDependencies.xoppack.slice(1)) {
+    //                     const msg = chalk(
+    //                         `New ${chalk.green('Version')} Of ${chalk.yellow(
+    //                             'xoppack',
+    //                         )} Is Available! ${chalk.red(
+    //                             package.devDependencies.xoppack.slice(1),
+    //                         )} --> ${chalk.green(vLatest)}`,
+    //                     );
+    //                     const tip = chalk(
+    //                         `Registry ${chalk.cyan('https://www.npmjs.com/package/xoppack')}`,
+    //                     );
+    //                     const install = chalk(
+    //                         `Run ${chalk.green('npm i xoppack@latest')} To Update!`,
+    //                     );
+    //                     boxConsole([msg, tip, install]);
+    //                 }
+    //             }
+    //         });
+    // }
 }
