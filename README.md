@@ -2,9 +2,14 @@
 <a href="https://xopbot-gg.glitch.me/"><img src="https://cdn.discordapp.com/avatars/831824859066925087/4a734a5acb82ba30bcfb906662f08b7a.webp"></a>
 </p>
 <h1 align="center"><strong>XOPPACK</h1></strong>
+<p align ="center">
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://nodei.co/npm/xoppack.png?downloads=true&downloadRank=true&stars=true" alt="NPM All"></a>
+</p>
 <p align="center">
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM Version" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM Downloads" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://badgen.net/npm/dependents/xoppack" alt="NPM Dependents"></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://badgen.net/npm/license/xoppack" alt="NPM License"></a>
     <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://badgen.net/discord/online-members/dPXTa2XERS" alt="Discord"></a>
 </p>
 
