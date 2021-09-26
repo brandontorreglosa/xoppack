@@ -13,19 +13,19 @@
     <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://badgen.net/discord/online-members/dPXTa2XERS" alt="Discord"></a>
 </p>
 
-## **📥 Installation**
+## **📥 | Installation**
 ```js
 npm i xoppack
 ```
 
 - Only Supports Discord.js@12.5.3 And Lower Versions Of V12
 
-## **📤 Update**
+## **📤 | Update**
 ```js
 npm i xoppack@latest
 ```
 
-## **🕹 XOP RPS GAME**
+## **🕹 | XOP RPS GAME**
 ```js
 const lineReplyNoMention = require('discord-reply')  //<----Install To Work!---->
 const { XOPRockPaperScissors } = require('xoppack') //<----Always Define XOPPACK---->
@@ -73,10 +73,10 @@ module.exports = {
 };
 ```
 
-## **🤳 Outcome**
+## **🤳 | Outcome**
 <img height=80% width=50% src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
 
-## **🕹 XOP SNAKE GAME**
+## **🕹 | XOP SNAKE GAME**
 ```js
 const lineReplyNoMention = require('discord-reply') //<----Install To Work!---->
 const { XOPSnake } = require("xoppack") //<----Always Define XOPPACK---->
@@ -110,8 +110,8 @@ module.exports = {
 };
 ```
 
-## **🤳 Outcome**
+## **🤳 | Outcome**
 <img height=70% width=50% src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
-## **👥 Discord Server**
-<a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://badgen.net/discord/members/dPXTa2XERS" alt="Discord"></a>
+## **👥 | Discord Server**
+<a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
