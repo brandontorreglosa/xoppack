@@ -1,6 +1,6 @@
 {
   "name": "xoppack",
-  "version": "1.3.8-1.05",
+  "version": "1.3.9",
   "description": "A Easy Fun Game Package For Discord.js Developers To Use!",
   "keywords": [
     "fun",
@@ -39,6 +39,6 @@
     "chalk": "^4.1.2",
     "discord-buttons": "^4.0.0",
     "discord-reply": "^0.1.2",
-    "xoppack": "^1.3.8-1.4"
+    "xoppack": "^1.3.8-1.5"
   }
 }
