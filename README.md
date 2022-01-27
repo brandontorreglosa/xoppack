@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://xopbot-gg.glitch.me/"><img src="https://cdn.discordapp.com/avatars/831824859066925087/4a734a5acb82ba30bcfb906662f08b7a.webp"></a>
+<a href="https://xopbot-gg.glitch.me/"><img src="https://cdn.discordapp.com/avatars/831824859066925087/6fb334d187ba17372343e45a3a7a76da.webp"></a>
 </p>
 <h1 align="center"><strong>XOPPACK</h1></strong>
 <p align ="center">
