@@ -6,11 +6,11 @@
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://nodei.co/npm/xoppack.png?downloads=true&downloadRank=true&stars=true" alt="NPM All"></a>
 </p>
 <p align="center">
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?maxAge=3600" alt="NPM Version" /></a>
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?maxAge=3600" alt="NPM Downloads" /></a>
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://badgen.net/npm/dependents/xoppack" alt="NPM Dependents"></a>
-    <a href="https://www.npmjs.com/package/xoppack"><img src="https://badgen.net/npm/license/xoppack" alt="NPM License"></a>
-    <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://badgen.net/discord/online-members/dPXTa2XERS" alt="Discord"></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/v/xoppack.svg?style=for-the-badge&label=XOPPACK" alt="NPM Version" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/dt/xoppack.svg?style=for-the-badge" alt="NPM Downloads" /></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/librariesio/dependents/npm/xoppack?style=for-the-badge" alt="NPM Dependents"></a>
+    <a href="https://www.npmjs.com/package/xoppack"><img src="https://img.shields.io/npm/l/xoppack.svg?style=for-the-badge&color=red" alt="NPM License"></a>
+    <a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://img.shields.io/discord/707557478254247936?style=for-the-badge&color=blue&label=HACKERPROTM%27s%20Server" alt="Discord"></a>
 </p>
 
 ## **📥 | Installation**
