@@ -114,7 +114,7 @@ module.exports = {
 <img height=70% width=50% src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **🆘 | Bugs**
-You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found!
+You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found!
 Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
 
 ## **👥 | Discord Server**
