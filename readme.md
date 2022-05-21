@@ -120,3 +120,5 @@ Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/d
 <a href="https://discord.gg/invite/dPXTa2XERS"><img height="550px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
 
 <b><p align="right">A Package Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
+<hr/>
+<h2>Please Make Sure To 🌟 And 🍴 The Repository!</h2>
