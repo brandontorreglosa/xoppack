@@ -1,6 +1,3 @@
-<p align="center">
-<a href="https://xopbot-gg.glitch.me/"><img src="https://cdn.discordapp.com/avatars/831824859066925087/6fb334d187ba17372343e45a3a7a76da.webp"></a>
-</p>
 <h1 align="center"><strong>XOPPACK</h1></strong>
 <p align ="center">
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://nodei.co/npm/xoppack.png?downloads=true&downloadRank=true&stars=true" alt="NPM All"></a>
@@ -74,7 +71,7 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height=80% width=50% src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
+<img height="150px" width="300px" src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
 
 ## **🎮 | XOP SNAKE GAME**
 ```js
@@ -111,11 +108,10 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height=70% width=50% src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
-
-## **🆘 | Bugs**
-You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found!
-Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
+<img height="350px" width="300px" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **👥 | Discord Server**
-<a href="https://discord.gg/invite/dPXTa2XERS"><img src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
+You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
+Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
+
+<a href="https://discord.gg/invite/dPXTa2XERS"><img height="550px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
