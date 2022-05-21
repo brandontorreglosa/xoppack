@@ -1,5 +1,6 @@
 <h1 align="center"><strong>XOPPACK</h1></strong>
-<p align ="center">
+<p align="center">A npm package made for Discord.js developers!</p>
+<p align="center">
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://nodei.co/npm/xoppack.png?downloads=true&downloadRank=true&stars=true" alt="NPM All"></a>
 </p>
 <p align="center">
