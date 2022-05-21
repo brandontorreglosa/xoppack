@@ -1,5 +1,5 @@
 <h1 align="center"><strong>XOPPACK</h1></strong>
-<b><p align="center">A fun game npm package made for Discord.js Developers!</p></b>
+<b><p align="center">A Fun Game NPM Package Made For Discord.js Developers!</p></b>
 <p align="center">
     <a href="https://www.npmjs.com/package/xoppack"><img src="https://nodei.co/npm/xoppack.png?downloads=true&downloadRank=true&stars=true" alt="NPM All"></a>
 </p>
@@ -119,4 +119,4 @@ Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/d
 
 <a href="https://discord.gg/invite/dPXTa2XERS"><img height="550px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
 
-<b><p align="right">A package owned by <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
+<b><p align="right">A Package Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
