@@ -118,3 +118,5 @@ You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page O
 Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
 
 <a href="https://discord.gg/invite/dPXTa2XERS"><img height="550px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
+
+<b><p align="right">A package owned by <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
