@@ -23,6 +23,8 @@ npm i xoppack
 npm i xoppack@latest
 ```
 
+- Updates Your Package Version To The Latest (ex. v2 > v3)
+
 ## **🎮 | XOP RPS GAME**
 ```js
 const lineReplyNoMention = require('discord-reply')  //<----Install To Work!---->
