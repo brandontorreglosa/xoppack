@@ -74,7 +74,7 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height="150px" width="300px" src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
+<img height="350px" width="100%" src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
 
 ## **🎮 | XOP SNAKE GAME**
 ```js
@@ -111,13 +111,13 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height="350px" width="300px" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
+<img height="450px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
 Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
 
-<a href="https://discord.gg/invite/dPXTa2XERS"><img height="auto" width="80%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
+<a href="https://discord.gg/invite/dPXTa2XERS"><img height="500px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
 
 <b><p align="left">A Package Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
 <hr/>
