@@ -111,7 +111,7 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height="450px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
+<img height="700px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
