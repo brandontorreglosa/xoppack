@@ -22,7 +22,6 @@ module.exports = {
             message: message,
             opponent: message.mentions.users.first(),
             embed: {
-                title: 'Rock Paper Scissors Game',
                 description: '**Press A Button Below To Start!**',
                 color: '#c30202',
             },

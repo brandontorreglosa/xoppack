@@ -50,7 +50,6 @@ module.exports = {
             message: message,
             opponent: message.mentions.users.first(),
             embed: {
-                title: 'Rock Paper Scissors Game',
                 description: '**Press A Button Below To Start!**',
                 color: '#c30202',
             },
@@ -91,7 +90,6 @@ module.exports = {
         new XOPSnake({
             message: message,
             embed: {
-                title: 'Snake Game',
                 color: '#34b7db',
                 OverTitle: "**Game Over!**",
             },
@@ -112,6 +110,11 @@ module.exports = {
 
 ## **🤳 | Outcome**
 <img height="700px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
+
+## **📯 | Announcments**
+<code>V1.4.7</code> 
+<p><strong>Major Update:</strong><br/>
+We Removed The Ability To Name A Embed As It Created Errors Wth The Package.<br/>Instead We Recommend To Change A Embed Title Manuallly By Going In The <code>Node_Modules</code></p>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
