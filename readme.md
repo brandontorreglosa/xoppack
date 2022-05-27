@@ -73,7 +73,7 @@ module.exports = {
 ```
 
 ## **🤳 | Outcome**
-<img height="350px" width="100%" src="https://cdn.discordapp.com/attachments/824319314495537175/886540431075188746/Screenshot_2021-09-12_121435.png">
+<img height="350px" width="100%" src="https://i.imgur.com/OXM37w7.png">
 
 ## **🎮 | XOP SNAKE GAME**
 ```js
