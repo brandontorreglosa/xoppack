@@ -112,7 +112,7 @@ module.exports = {
 <img height="700px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **📯 | Announcments**
-<code>V1.4.7</code> 
+<code>V1.4.8-bfix</code> 
 <p><strong>Major Update:</strong><br/>
 We Removed The Ability To Name A Embed As It Created Errors Wth The Package.<br/>Instead We Recommend To Change A Embed Title Manuallly By Going In The <code>Node_Modules</code></p>
 
