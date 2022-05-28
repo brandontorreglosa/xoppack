@@ -1,6 +1,7 @@
 const { MessageButton } = require('discord-buttons');
 const { MessageEmbed } = require('discord.js')
 const lineReplyNoMention = require('discord-reply');
+const ms = require("ms");
 const WIDTH = 15;
 const HEIGHT = 10;
 const gameBoard = [];
@@ -84,6 +85,7 @@ class XOPSnakeGame {
         this.snake = [{ x: 5, y: 5 }];
         this.newFoodLoc();
         this.buttons = { up: btn_up, left: btn_left, down: btn_down, right: btn_right, stop: btn_stop }
+        const loading = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Snake", this.message.author.displayAvatarURL({ dynamic: true })).setDescription("**Loading...**")
         const embed = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Snake", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**Score:**\`${this.score}\`\n\n${this.getGameBoard()}`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
         let up = new MessageButton().setEmoji(emojis.up || '⬆️').setStyle('blurple').setID(btn_up)
         let left = new MessageButton().setEmoji(emojis.left || '⬅️').setStyle('blurple').setID(btn_left)
@@ -98,7 +100,11 @@ class XOPSnakeGame {
         let dis6 = new MessageButton().setLabel('\u200b').setStyle('gray').setID('off6').setDisabled()
         let dis7 = new MessageButton().setLabel('\u200b').setStyle('gray').setID('off7').setDisabled()
         let components = [{ type: 1, components: [dis1, up, dis2, stop] }, { type: 1, components: [left, dis4, right, dis3] }, { type: 1, components: [dis5, down, dis6, dis7] }, ]
-        const msg = await this.message.channel.send({ embed: embed, components: components })
+        const msg = await this.message.channel.send({ embed: loading })
+        let time = "2s"
+        setTimeout(function() {
+            msg.edit({ embed: embed, components: components });
+        }, ms(time));
         this.ButtonCollector(msg)
     }
     move(msg) {

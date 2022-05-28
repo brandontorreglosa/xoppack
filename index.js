@@ -46,8 +46,8 @@ module.exports = {
         return res;
     },
     randomizeString: function(array) {
-        if (!array) throw new TypeError('Possible_Error: A Array Was Not Specified.');
-        if (typeof array !== 'object') { throw new TypeError('Possible_Error: The Provided Array Is Innvalid.'); }
+        if (!array) throw new TypeError('Error: A array was not specified.');
+        if (typeof array !== 'object') { throw new TypeError('Error: The provided array is invalid.'); }
         const res = Math.floor(Math.random() * array.length);
         return array[res];
     },
@@ -64,9 +64,9 @@ module.exports = {
     vaporwave: function(string) { return string.replace(/[a-zA-Z0-9!\?\.'";:\]\[}{\)\(@#\$%\^&\*\-_=\+`~><]/g, (char) => String.fromCharCode(0xfee0 + char.charCodeAt(0)), ).replace(/ /g, '　'); },
 };
 //<----/XOPPACK Constructors/---->
-module.exports.XOPConnect4 = require('./lib/XOPConnect4')
-module.exports.XOPSnake = require('./lib/XOPSnake')
-module.exports.XOPRockPaperScissors = require('./lib/XOPRockPaperScissors')
-module.exports.XOPTicTacToe = require('./lib/XOPTicTacToe')
-module.exports.XOP8ball = require('./functions/XOP8ball')
-module.exports.XOPEmojify = require('./functions/XOPEmojify')
+module.exports.XOPConnect4 = require('./src/XOPConnect4')
+module.exports.XOPSnake = require('./src/XOPSnake')
+module.exports.XOPRockPaperScissors = require('./src/XOPRockPaperScissors')
+module.exports.XOPTicTacToe = require('./src/XOPTicTacToe')
+module.exports.XOP8ball = require('./src/XOP8ball')
+module.exports.XOPEmojify = require('./src/XOPEmojify')

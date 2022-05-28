@@ -1,6 +1,7 @@
 const { MessageButton, MessageActionRow } = require('discord-buttons');
 const { MessageEmbed } = require('discord.js');
 const lineReplyNoMention = require('discord-reply');
+const ms = require("ms");
 const WIDTH = 7;
 const HEIGHT = 6;
 const gameBoard = [];
@@ -59,11 +60,16 @@ module.exports = class XOPConnect4Game {
         const noyouplay = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Connect 4", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**${emoji}Are You Alright?You Can Not Play With Yourself!**`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
         if (opponent.bot) return this.message.lineReplyNoMention(noboyplay)
         if (opponent.id === author.id) return this.message.lineReplyNoMention(noyouplay)
+        const loading = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Connect 4", this.message.author.displayAvatarURL({ dynamic: true })).setDescription("**Loading...**")
         const embed = new MessageEmbed().setTimestamp().setAuthor("Connect 4", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(this.options.askerMessage.replace('{challenger}', this.message.author).replace('{opponent}', this.opponent)).setColor(this.options.embed.color).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
         let btn1 = new MessageButton().setLabel('Accept').setEmoji('✅').setStyle('green').setID('accept')
         let btn2 = new MessageButton().setLabel('Reject').setEmoji('❌').setStyle('red').setID('reject')
         let row = new MessageActionRow().addComponents(btn1, btn2)
-        const askMsg = await this.message.channel.send({ embed: embed, components: [row] });
+        const askMsg = await this.message.channel.send({ embed: loading })
+        let time = "2s"
+        setTimeout(function() {
+            msg.edit({ embed: embed, components: [row] });
+        }, ms(time));
         const filter = m => m.clicker.user.id === this.opponent.id;
         const interaction = await askMsg.createButtonCollector(filter, { time: 60000, })
         interaction.on('collect', async btn => {

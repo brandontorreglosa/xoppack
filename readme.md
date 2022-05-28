@@ -112,9 +112,13 @@ module.exports = {
 <img height="700px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
 
 ## **📯 | Announcments**
-<code>V1.4.8-bfix</code> 
+<code>V1.4.8-bfix / V1.4.9</code> 
 <p><strong>Major Update:</strong><br/>
 We Removed The Ability To Name A Embed As It Created Errors Wth The Package.<br/>Instead We Recommend To Change A Embed Title Manuallly By Going In The <code>Node_Modules</code></p>
+<code>V1.5.0</code>
+<p><strong>Huge Update:</strong><br/>
+We Have Made Various Changes In The Package, Of Which None Have Affected The Constructor In To Need Of Changing Options. Although They Have Affected Only The Source.<br/>To Be More Specific We Have Changed Folders And Functions Of Each Constructor.<br/>Example:
+&nbsp;<code>lib</code>&nbsp;to&nbsp;<code>src</code>&nbsp;,&nbsp;<code>examples</code>&nbsp;to&nbsp;<code>events</code>&nbsp;,&nbsp;<code>xoptypes</code>&nbsp;to&nbsp;<code>typescript</code> and more...</p>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 

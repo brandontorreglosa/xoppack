@@ -1,5 +1,6 @@
 require("dotenv").config();
 const ms = require("ms");
+const { XOPSnake } = require("xoppack");
 const { MessageEmbed } = require("discord.js");
 const { Client, Collection, Intents, DiscordAPIError } = require("discord.js");
 const lineReplyNoMention = require("discord-reply");
@@ -35,6 +36,24 @@ client.on('message', async(message) => {
         setTimeout(function() {
             msg.edit(e2);
         }, ms(time));
+    } else if (message.content === "x2!snake") {
+        new XOPSnake({
+            message: message,
+            embed: {
+                color: `${color}`,
+                OverTitle: "**Game Over!**",
+            },
+            snake: { head: '🔴', body: '🟥', tail: '🔴' },
+            emojis: {
+                board: '⬛',
+                food: '🍌',
+                up: '⬆️',
+                right: '➡️',
+                down: '⬇️',
+                left: '⬅️',
+            },
+            othersuserMessage: '**You Are Not Allowed To Use The Buttons For The Snake Game!**',
+        }).startGame();
     }
 });
 client.login(process.env.Prefix);
