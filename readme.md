@@ -119,6 +119,9 @@ We Removed The Ability To Name A Embed As It Created Errors Wth The Package.<br/
 <p><strong>Huge Update:</strong><br/>
 We Have Made Various Changes In The Package, Of Which None Have Affected The Constructor In To Need Of Changing Options. Although They Have Affected Only The Source.<br/>To Be More Specific We Have Changed Folders And Functions Of Each Constructor.<br/>Example:
 &nbsp;<code>lib</code>&nbsp;to&nbsp;<code>src</code>&nbsp;,&nbsp;<code>examples</code>&nbsp;to&nbsp;<code>events</code>&nbsp;,&nbsp;<code>xoptypes</code>&nbsp;to&nbsp;<code>typescript</code> and more...</p>
+<code>V1.5.1</code>
+<p><strong>Very Huge Update:</strong><br/>
+We Are Gonna Be Welcoming Discord.jsV13 Constructors By The End Of June With Better Functions, New Colors And More... Even Better You Can Now Try The Loading Function In Your Own Bot, Just Update To This Better Version.</p>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 

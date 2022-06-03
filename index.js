@@ -16,7 +16,7 @@ module.exports.XOPConnect4 = require('./src/v12/XOPConnect4');
 module.exports.XOPTicTacToe = require('./src/v12/XOPTicTacToe');
 module.exports.XOPRockPaperScissors = require('./src/v12/XOPRockPaperScissors');
 //<----/XOPPACK V13 Constructors/---->
-module.exports.XOPNewConnect4 = require("");
-module.exports.XOPNewSnake = require("");
-module.exports.XOPNewRockPaperScissors = require("");
-module.exports.XOPNewTicTacToe = require("");
+module.exports.XOPNewSnake = require("./src/v13/XOPNewSnake");
+module.exports.XOPNewConnect4 = require("./src/v13/XOPNewConnect4");
+module.exports.XOPNewTicTacToe = require("./src/v13/XOPNewTicTacToe");
+module.exports.XOPNewRockPaperScissors = require("./src/v13/XOPNewRockPaperScissors");
