@@ -1,1 +1,1 @@
-Worker: node ./test/index.js
+Worker: bash ./index.bat
