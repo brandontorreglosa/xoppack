@@ -65,11 +65,8 @@ module.exports = class XOPConnect4Game {
         let btn1 = new MessageButton().setLabel('Accept').setEmoji('✅').setStyle('green').setID('accept')
         let btn2 = new MessageButton().setLabel('Reject').setEmoji('❌').setStyle('red').setID('reject')
         let row = new MessageActionRow().addComponents(btn1, btn2)
-        const askMsg = await this.message.channel.send({ embed: loading })
-        let time = "2s"
-        setTimeout(function() {
-            msg.edit({ embed: embed, components: [row] });
-        }, ms(time));
+        await this.message.channel.send({ embed: loading })
+        const askMsg = await this.message.channel.send({ embed: embed, components: [row] });
         const filter = m => m.clicker.user.id === this.opponent.id;
         const interaction = await askMsg.createButtonCollector(filter, { time: 60000, })
         interaction.on('collect', async btn => {
@@ -89,7 +86,7 @@ module.exports = class XOPConnect4Game {
                 });
             }
         })
-        interaction.on("end", async(c, r) => {
+        interaction.on("end", async (c, r) => {
             if (r === 'messageDelete') return;
             for (let y = 0; y < askMsg.components[0].components.length; y++) { askMsg.components[0].components[y].disabled = true; }
             askMsg.embeds[0].description = this.options.timerEndMessage.replace('{opponent}', this.opponent).replace('{challenger}', this.message.author);

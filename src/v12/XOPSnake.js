@@ -99,12 +99,9 @@ class XOPSnakeGame {
         let dis5 = new MessageButton().setLabel('\u200b').setStyle('gray').setID('off5').setDisabled()
         let dis6 = new MessageButton().setLabel('\u200b').setStyle('gray').setID('off6').setDisabled()
         let dis7 = new MessageButton().setLabel('\u200b').setStyle('gray').setID('off7').setDisabled()
-        let components = [{ type: 1, components: [dis1, up, dis2, stop] }, { type: 1, components: [left, dis4, right, dis3] }, { type: 1, components: [dis5, down, dis6, dis7] }, ]
-        const msg = await this.message.channel.send({ embed: loading })
-        let time = "2s"
-        setTimeout(function() {
-            msg.edit({ embed: embed, components: components });
-        }, ms(time));
+        let components = [{ type: 1, components: [dis1, up, dis2, stop] }, { type: 1, components: [left, dis4, right, dis3] }, { type: 1, components: [dis5, down, dis6, dis7] },]
+        await this.message.channel.send({ embed: loading })
+        const msg = await this.message.channel.send({ embed: embed, components: components });
         this.ButtonCollector(msg)
     }
     move(msg) {
@@ -185,7 +182,7 @@ class XOPSnakeGame {
                 this.move(msg);
             }
         })
-        collector.on("end", async() => { return this.gameOver(msg); })
+        collector.on("end", async () => { return this.gameOver(msg); })
     }
 }
 module.exports = XOPSnakeGame;
