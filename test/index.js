@@ -25,17 +25,9 @@ client.on("ready", () => {
     let i = 0;
     setInterval(() => client.user.setActivity(`x2!help | ${activities[i++ % activities.length]}`, { type: 'PLAYING' }), 10000);
 });
-client.on('message', async(message) => {
+client.on('messageCreate', async (message) => {
     if (message.author.bot || message.channel.type === 'dm') return;
-    if (message.content === "x2!help") {
-        let e1 = new MessageEmbed().setColor(`${color}`).setDescription("Loading...")
-        let e2 = new MessageEmbed().setTimestamp().setTitle("Help Menu").setColor(`${color}`).setDescription("No commands yet 😞").setFooter(message.author.username, message.author.displayAvatarURL({ dynamic: true }))
-        let msg = await message.channel.send({ embeds: e1 });
-        let time = "3s"
-        setTimeout(function() {
-            msg.edit(e2);
-        }, ms(time));
-    } else if (message.content === "x2!snake") {
+    if (message.content === "x2!snake") {
         new XOPNewSnake({
             message: message,
             enable_slash_command: false,

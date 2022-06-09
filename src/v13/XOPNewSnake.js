@@ -1,4 +1,8 @@
-const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js-v13"); const { disableButtons } = require(); const WIDTH = 15; const HEIGHT = 10; class XOPNewSnakeGame {
+const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js-v13");
+const { disableButtons } = require();
+const WIDTH = 15;
+const HEIGHT = 10;
+class XOPNewSnakeGame {
     constructor(options = {}) {
         if (!options.message) throw new TypeError('NO_MESSAGE: Please provide a message arguement')
         if (typeof options.message !== 'object') throw new TypeError('INVALID_MESSAGE: Invalid Discord Message object was provided.')
