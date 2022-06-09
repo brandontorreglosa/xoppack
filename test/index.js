@@ -1,9 +1,8 @@
 require("dotenv").config();
 const ms = require("ms");
-const { XOPSnake } = require("xoppack");
+const { XOPNewSnake } = require("xoppack");
 const { MessageEmbed } = require("discord.js");
-const { Client, Collection, Intents, DiscordAPIError } = require("discord.js");
-const lineReplyNoMention = require("discord-reply");
+const { Client, Collection, Intents, DiscordAPIError } = require("discord.js-v13");
 const color = process.env.Color;
 const client = new Client({
     partials: ["MESSAGE", "CHANNEL", "REACTIONS"],
@@ -31,14 +30,15 @@ client.on('message', async(message) => {
     if (message.content === "x2!help") {
         let e1 = new MessageEmbed().setColor(`${color}`).setDescription("Loading...")
         let e2 = new MessageEmbed().setTimestamp().setTitle("Help Menu").setColor(`${color}`).setDescription("No commands yet 😞").setFooter(message.author.username, message.author.displayAvatarURL({ dynamic: true }))
-        let msg = await message.channel.send({ embed: e1 });
+        let msg = await message.channel.send({ embeds: e1 });
         let time = "3s"
         setTimeout(function() {
             msg.edit(e2);
         }, ms(time));
     } else if (message.content === "x2!snake") {
-        new XOPSnake({
+        new XOPNewSnake({
             message: message,
+            enable_slash_command: false,
             embed: {
                 color: `${color}`,
                 OverTitle: "**Game Over!**",

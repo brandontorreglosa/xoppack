@@ -16,7 +16,7 @@
 npm i xoppack
 ```
 
-- Only Supports Discord.js@12.5.3 And Lower Versions Of V12
+- Now Supports Discord.js v12 and v13 🥳
 
 ## **📤 | Update**
 ```js
@@ -29,7 +29,6 @@ npm i xoppack@latest
 ```js
 const lineReplyNoMention = require('discord-reply')  //<----Install To Work!---->
 const { XOPRockPaperScissors } = require('xoppack') //<----Always Define XOPPACK---->
-
 module.exports = {
     name: "rps",
     permissions: ["SEND_MESSAGES"], //<----Your Member Permissions!---->[optional]
@@ -76,10 +75,11 @@ module.exports = {
 <img height="350px" width="100%" src="https://i.imgur.com/OXM37w7.png">
 
 ## **🎮 | XOP SNAKE GAME**
+
+**Version 12 Function**
 ```js
 const lineReplyNoMention = require('discord-reply') //<----Install To Work!---->
 const { XOPSnake } = require("xoppack") //<----Always Define XOPPACK---->
-
 module.exports = {
     name: "snake",
     cooldown: 10, //<----Your Bots Cooldown!---->[optional]
@@ -107,9 +107,39 @@ module.exports = {
     },
 };
 ```
-
+**Version 13 Function**
+```js
+const { XOPNewSnake } = require("xoppack") //<----Always Define XOPPACK---->
+module.exports = {
+    name: "snake",
+    cooldown: 10, //<----Your Bots Cooldown!---->[optional]
+    permissions: ["SEND_MESSAGES"], //<----Your Member Permissions!---->[optional]
+    clientpermissions: ["SEND_MESSAGES", "EMBED_LINKS"], //<----Your Bots Permissions!---->[optional]
+    description: "snake in discord!",
+    async execute(client, message, cmd, args, Discord) { //<----Your Parameters---->
+        new XOPSnake({
+            message: message,
+            enable_slash_command: false,
+            embed: {
+                color: '#34b7db',
+                OverTitle: "**Game Over!**",
+            },
+            snake: { head: '🔴', body: '🟥', tail: '🔴' },
+            emojis: {
+                board: '⬛',
+                food: '🍌',
+                up: '⬆️',
+                right: '➡️',
+                down: '⬇️',
+                left: '⬅️',
+            },
+            othersuserMessage: '**You Are Not Allowed To Use The Buttons For The Snake Game!**',
+        }).startGame();
+    },
+};
+```
 ## **🤳 | Outcome**
-<img height="700px" width="100%" src='https://cdn.discordapp.com/attachments/824319314495537175/886540689314299944/Screenshot_2021-09-12_121559.png'>
+<img height="700px" width="100%" src='https://i.imgur.com/5J5dzKh.png'>
 
 ## **📯 | Announcments**
 <code>V1.4.8-bfix / V1.4.9</code> 
@@ -122,6 +152,10 @@ We Have Made Various Changes In The Package, Of Which None Have Affected The Con
 <code>V1.5.1</code>
 <p><strong>Very Huge Update:</strong><br/>
 We Are Gonna Be Welcoming Discord.jsV13 Constructors By The End Of June With Better Functions, New Colors And More... Even Better You Can Now Try The Loading Function In Your Own Bot, Just Update To This Better Version.</p>
+<code>V1.5.2</code>
+<p><strong>Mega Huge Update:</strong><br/>
+We Finally Support Discord.jsV13, It Took Us Some Months A Lot Ngl, But We Made It Possible, We Fixed All Mistakes Done From Previous V13 Versions And This Is The Most Working So Far. So Go Install It Now On NPM.JS 😀
+</p>
 
 ## **👥 | Discord Server**
 You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
