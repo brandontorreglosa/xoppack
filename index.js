@@ -30,7 +30,7 @@ module.exports.XOPMNM = require("./src/v12/images/XOPMNM");
 module.exports.XOPPET = require("./src/v12/images/XOPPET");
 module.exports.XOPSimp = require("./src/v12/images/XOPSimp");
 module.exports.XOPStonks = require("./src/v12/images/XOPStonks");
-module.exports.XOPTABFLIP = require("./src/v12/images/XOPTABFLIP");
+module.exports.XOPTABLEFLIP = require("./src/v12/images/XOPTABLEFLIP");
 module.exports.XOPWanted = require("./src/v12/images/XOPWanted");
 module.exports.XOPWPFP = require("./src/v12/images/XOPWPFP");
 //<----/XOPPACK V13 Constructors/---->
