@@ -24,7 +24,6 @@ npm i xoppack@latest
 ```
 
 - Updates Your Package Version To The Latest (ex. v2 > v3)
-<br/>
 
 ## **📸 | XOP IMAGES**
 
@@ -135,7 +134,7 @@ if (message.content === "clown"){
 });
 ```
 ## **🤳 | Outcome**
-<img width="100%" src="https://i.imgur.com/4jQBA5U.png">
+<img width="100%" height="550px" src="https://i.imgur.com/4jQBA5U.png">
 
 **Version 12 Example**
 ```js
