@@ -1,9 +1,10 @@
 require("dotenv").config();
 const ms = require("ms");
-const { XOPNewSnake } = require("xoppack");
+const {
+    XOPSnake, XOPBlur, XOPAD, XOPClown, XOPDOF, XOPDrip, XOPGrave, XOPGun, XOPHeaven, XOPIAS, XOPMNM, XOPPET, XOPSimp, XOPStonks, XOPTABFLIP, XOPWPFP, XOPWanted
+} = require("../index");
 const { MessageEmbed } = require("discord.js");
-const { Client, Collection, Intents, DiscordAPIError } = require("discord.js-v13");
-const color = process.env.Color;
+const { Client, Collection, Intents, DiscordAPIError } = require("discord.js");
 const client = new Client({
     partials: ["MESSAGE", "CHANNEL", "REACTIONS"],
     allowedMentions: { parse: ['users', 'roles'], repliedUser: true },
@@ -25,14 +26,13 @@ client.on("ready", () => {
     let i = 0;
     setInterval(() => client.user.setActivity(`x2!help | ${activities[i++ % activities.length]}`, { type: 'PLAYING' }), 10000);
 });
-client.on('messageCreate', async (message) => {
+client.on('message', async (message) => {
     if (message.author.bot || message.channel.type === 'dm') return;
-    if (message.content === "x2!snake") {
-        new XOPNewSnake({
+    if (message.content === "test_games") {
+        new XOPSnake({
             message: message,
-            enable_slash_command: false,
             embed: {
-                color: `${color}`,
+                color: `PURPLE`,
                 OverTitle: "**Game Over!**",
             },
             snake: { head: '🔴', body: '🟥', tail: '🔴' },
@@ -46,6 +46,39 @@ client.on('messageCreate', async (message) => {
             },
             othersuserMessage: '**You Are Not Allowed To Use The Buttons For The Snake Game!**',
         }).startGame();
+    } else if (message.content === "test_images") {
+        new XOPBlur({
+            message: message,
+            mention: true,
+            embed: {
+                color: `PURPLE`,
+                title: "Blur"
+            }
+        }).startFunction();
+        new XOPAD({
+            message: message,
+            mention: true,
+            embed: {
+                color: `PURPLE`,
+                title: "AD"
+            }
+        }).startFunction();
+        new XOPClown({
+            message: message,
+            mention: true,
+            embed: {
+                color: `PURPLE`,
+                title: "Clown"
+            }
+        }).startFunction();
+        new XOPDrip({
+            message: message,
+            mention: true,
+            embed: {
+                color: `PURPLE`,
+                title: "Drip"
+            }
+        }).startFunction();
     }
 });
-client.login(process.env.Prefix);
+client.login("ODUxMjAwMzAwNDEyNDM2NDgx.G3SB_k.fd1nG9HHnwgS-FHsrF0iAZuwuXL5WJDm_Jgbc4");

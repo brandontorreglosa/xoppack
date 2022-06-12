@@ -48,8 +48,8 @@ class XOPRPSGame {
         const author = this.message.author;
         const opponent = this.opponent;
         const emoji = this.options.emoji ? this.options.emoji : '';
-        const noboyplay = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Rock Paper Scissors", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**${emoji}Sorry But You Cant Play With Bots!**`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
-        const noyouplay = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Rock Paper Scissors", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**${emoji}Are You Alright?You Can Not Play With Yourself!**`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
+        const noboyplay = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Rock Paper Scissors", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**${emoji} Sorry But You Cant Play With Bots!**`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
+        const noyouplay = new MessageEmbed().setTimestamp().setColor(this.options.embed.color).setAuthor("Rock Paper Scissors", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(`**${emoji} Are You Alright? You Can Not Play With Yourself!**`).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
         if (opponent.bot) return this.message.lineReplyNoMention(noboyplay)
         if (opponent.id === author.id) return this.message.lineReplyNoMention(noyouplay)
         const embed = new MessageEmbed().setTimestamp().setAuthor("Rock Paper Scissors", this.message.author.displayAvatarURL({ dynamic: true })).setDescription(this.options.askerMessage.replace('{challenger}', this.message.author).replace('{opponent}', this.opponent)).setColor(this.options.embed.color).setFooter('XOPPACK©', this.message.author.displayAvatarURL({ dynamic: true }))
