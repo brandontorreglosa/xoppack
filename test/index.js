@@ -22,7 +22,6 @@ client.on("ready", () => {
         'Version 1.2.3',
         '24/7 Uptime'
     ];
-
     let i = 0;
     setInterval(() => client.user.setActivity(`x2!help | ${activities[i++ % activities.length]}`, { type: 'PLAYING' }), 10000);
 });
