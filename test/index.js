@@ -17,10 +17,8 @@ client.on("ready", () => {
         `${client.guilds.cache.size} Servers`,
         `${client.channels.cache.size} Channels`,
         `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users`,
-        '👑HACKERPROᵈᵉᵛ#1498 Made This Bot',
-        'https://xopbot.glitch.me/',
-        'Version 1.2.3',
-        '24/7 Uptime'
+        'xopbot.glitch.me',
+        'Version 1.2.3'
     ];
     let i = 0;
     setInterval(() => client.user.setActivity(`x2!help | ${activities[i++ % activities.length]}`, { type: 'PLAYING' }), 10000);
