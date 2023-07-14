@@ -16,14 +16,14 @@
 npm i xoppack
 ```
 
-- Now Supports Discord.js v12 and v13 very soon 🥳
+- Supports Discord.js v12
 
 ## **📤 | Update**
 ```js
 npm i xoppack@latest
 ```
 
-- Updates Your Package Version To The Latest (ex. v2 > v3)
+- Update Your Package Version
 
 ## **📸 | XOP IMAGES**
 
@@ -231,31 +231,5 @@ if (message.content === "snake") {
 ## **🤳 | Outcome**
 <img height="550px" width="100%" src='https://i.imgur.com/5J5dzKh.png'>
 
-## **📯 | Announcments**
-<code>V1.4.8-bfix / V1.4.9</code> 
-<p><strong>Major Update:</strong><br/>
-We Removed The Ability To Name A Embed As It Created Errors Wth The Package.<br/>Instead We Recommend To Change A Embed Title Manuallly By Going In The <code>Node_Modules</code></p>
-<code>V1.5.0</code>
-<p><strong>Huge Update:</strong><br/>
-We Have Made Various Changes In The Package, Of Which None Have Affected The Constructor In To Need Of Changing Options. Although They Have Affected Only The Source.<br/>To Be More Specific We Have Changed Folders And Functions Of Each Constructor.<br/>Example:
-&nbsp;<code>lib</code>&nbsp;to&nbsp;<code>src</code>&nbsp;,&nbsp;<code>examples</code>&nbsp;to&nbsp;<code>events</code>&nbsp;,&nbsp;<code>xoptypes</code>&nbsp;to&nbsp;<code>typescript</code> and more...</p>
-<code>V1.5.1</code>
-<p><strong>Very Huge Update:</strong><br/>
-We Are Gonna Be Welcoming Discord.jsV13 Constructors By The End Of June With Better Functions, New Colors And More... Even Better You Can Now Try The Loading Function In Your Own Bot, Just Update To This Better Version.</p>
-<code>V1.5.2</code>
-<p><strong>Mega Huge Update:</strong><br/>
-We Finally Are Going To Support Discord.jsV13, It Took Us Some Months To Decide, But We're Making It Possible, We Fixed All Mistakes Done From Previous V13 Versions And You Should Expect It By The End Of June 😀
-</p>
-<code>v3.2.5</code>
-<p><strong>Ultra Huge Update:
-We Have Added Over 16 Images To Use By Installing Our Pack. We Also Updated V12 Functions For Better Speed And Design, Mostly We Fixed Bugs With The Previous Version And Now Works Since We Got Our Testing Bot Finally Active 😂. AH, Just So You Know The Images Display The Icon Of Only The Author, In The Next Update We Will Be Fixing That But For Now Have Fun Using This Big Version.</strong></p>
-
-## **👥 | Discord Server**
-You Can Visit The [Issues](https://github.com/HACKERPROTM/xoppack/issues) Page Of XOPPACK To Report [Bugs](https://github.com/HACKERPROTM/xoppack/issues) Or [Errors](https://github.com/HACKERPROTM/xoppack/issues) Found! 
-Also Dont Be Afraid To Ping Me 'Once' On My [Server](https://discord.gg/invite/dPXTa2XERS) Just Click The Image And It Will Send You To The Server ⏬
-
-<a href="https://discord.gg/invite/dPXTa2XERS"><img height="500px" width="100%" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord"></a>
-
 <b><p align="left">A Package Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
 <hr/>
-<h2>Please Make Sure To 🌟 And 🍴 The Repository!</h2>
